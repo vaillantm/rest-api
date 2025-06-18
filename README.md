@@ -7,38 +7,55 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 ## 🛠 Programming Language and Framework
 
-- **Language:** JavaScript (Node.js)  
-- **Framework:** Express.js  
-- **UUID Generator:** [uuid](https://www.npmjs.com/package/uuid)  
-- **Storage:** In-memory (no database)  
+- **Language:** JavaScript (Node.js)
+- **Framework:** Express.js
+- **UUID Generator:** [uuid](https://www.npmjs.com/package/uuid)
+- **Storage:** In-memory (no database)
 
 ---
 
 ## 📋 Features
 
-- Create users with auto-generated UUIDs  
-- Retrieve users by ID  
-- Input validation and duplicate email check  
-- JSON-formatted responses with appropriate error codes  
+- Create users with auto-generated UUIDs
+- Retrieve users by ID
+- Input validation and duplicate email check
+- JSON-formatted responses with appropriate error codes
 
 ---
 
 ## 🚀 Getting Started
 
 ### ✅ Prerequisites
-
-- Node.js (v14 or later)  
-- npm (Node Package Manager)  
+-VS Code (Or any other IDE)
+- Node.js (v14 or later)
+- npm (Node Package Manager)
+- Postman (For Testing)
 
 ---
 
 ## 📦 Installation
 
-1. **Download the project ZIP** from GitHub:  
-   - Click the green **Code** button → **Download ZIP**  
-2. Extract the ZIP file to your local system.  
-3. Open the extracted folder in your terminal or **Visual Studio Code**.  
-4. In the terminal, run:
+
+### Clone or Download
+
+1. **Clone the repository** using Git:
+   ```bash
+   git clone https://github.com/vaillantm/rest-api.git
+   cd rest-api
+````
+
+**OR**
+
+2. **Download the project ZIP** from GitHub:
+
+   * Click the green **Code** button → **Download ZIP**
+3. Extract the ZIP file to your local system.
+4. Open the extracted folder in your terminal or **Visual Studio Code**.
+5. In the terminal, run:
+
+```
+```
+
 
 ```bash
 npm install
@@ -77,8 +94,9 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
 4. Go to the **Headers** tab:
 
    * Key: `Content-Type` → Value: `application/json`
+     ![alt text](images/image.png)
 5. Go to the **Body** tab → Choose `raw` → Select `JSON`
-6. Paste the following JSON body:
+6. Paste the following body:
 
 ```json
 {
@@ -87,18 +105,13 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
 }
 ```
 
+![alt text](images/image-1.png)
+
 7. Click **Send**
 
 #### ✅ Sample Response:
 
-```json
-{
-  "id": "uuid-generated-id",
-  "name": "John Doe",
-  "email": "john@example.com",
-  "createdAt": "2025-06-18T12:00:00.000Z"
-}
-```
+![alt text](images/image-2.png)
 
 ---
 
@@ -121,16 +134,7 @@ http://localhost:3000/users/<your-user-id>
 
 #### ✅ Sample Response:
 
-```json
-{
-  "id": "uuid-generated-id",
-  "name": "John Doe",
-  "email": "john@example.com",
-  "createdAt": "2025-06-18T12:00:00.000Z"
-}
-```
-
----
+![alt text](images/image-3.png)
 
 ## ⚠️ Error Handling
 
@@ -148,7 +152,7 @@ The API returns JSON-formatted error responses with appropriate status codes:
 ## 📁 Project Structure
 
 ```
-rest-api/
+testapi/
 ├── node_modules/         # Installed dependencies
 ├── package.json          # Metadata and scripts
 ├── package-lock.json     # Exact versions of packages
@@ -168,5 +172,12 @@ rest-api/
 
 ---
 
+## 🪪 License
+
+MIT License
+
+---
+
 ```
+All image references now point to files inside the `images` folder without any other changes.
 ```
