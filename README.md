@@ -1,5 +1,3 @@
-
-
 ````markdown
 # Simple REST API
 
@@ -9,19 +7,19 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 ## 🛠 Programming Language and Framework
 
-- **Language:** JavaScript (Node.js)
-- **Framework:** Express.js
-- **UUID Generator:** [uuid](https://www.npmjs.com/package/uuid)
-- **Storage:** In-memory (no database)
+- **Language:** JavaScript (Node.js)  
+- **Framework:** Express.js  
+- **UUID Generator:** [uuid](https://www.npmjs.com/package/uuid)  
+- **Storage:** In-memory (no database)  
 
 ---
 
 ## 📋 Features
 
-- Create users with auto-generated UUIDs
-- Retrieve users by ID
-- Input validation and duplicate email check
-- JSON-formatted responses with appropriate error codes
+- Create users with auto-generated UUIDs  
+- Retrieve users by ID  
+- Input validation and duplicate email check  
+- JSON-formatted responses with appropriate error codes  
 
 ---
 
@@ -29,17 +27,17 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 ### ✅ Prerequisites
 
-- Node.js (v14 or later)
-- npm (Node Package Manager)
+- Node.js (v14 or later)  
+- npm (Node Package Manager)  
 
 ---
 
 ## 📦 Installation
 
-1. **Download the project ZIP** from GitHub:
-   - Click the green **Code** button → **Download ZIP**
-2. Extract the ZIP file to your local system.
-3. Open the extracted folder in your terminal or **Visual Studio Code**.
+1. **Download the project ZIP** from GitHub:  
+   - Click the green **Code** button → **Download ZIP**  
+2. Extract the ZIP file to your local system.  
+3. Open the extracted folder in your terminal or **Visual Studio Code**.  
 4. In the terminal, run:
 
 ```bash
@@ -79,9 +77,8 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
 4. Go to the **Headers** tab:
 
    * Key: `Content-Type` → Value: `application/json`
-     ![Headers tab example](postman-headers.png)
 5. Go to the **Body** tab → Choose `raw` → Select `JSON`
-6. Paste the following body:
+6. Paste the following JSON body:
 
 ```json
 {
@@ -90,13 +87,18 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
 }
 ```
 
-![Body tab example](postman-body.png)
-
 7. Click **Send**
 
 #### ✅ Sample Response:
 
-![Sample JSON response](postman-response.png)
+```json
+{
+  "id": "uuid-generated-id",
+  "name": "John Doe",
+  "email": "john@example.com",
+  "createdAt": "2025-06-18T12:00:00.000Z"
+}
+```
 
 ---
 
@@ -119,7 +121,14 @@ http://localhost:3000/users/<your-user-id>
 
 #### ✅ Sample Response:
 
-![Get user response](postman-get-response.png)
+```json
+{
+  "id": "uuid-generated-id",
+  "name": "John Doe",
+  "email": "john@example.com",
+  "createdAt": "2025-06-18T12:00:00.000Z"
+}
+```
 
 ---
 
@@ -159,4 +168,5 @@ rest-api/
 
 ---
 
-
+```
+```
