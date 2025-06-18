@@ -1,4 +1,4 @@
-````markdown
+
 # Simple REST API
 
 A lightweight REST API built with **Node.js** and **Express** for basic user management using in-memory storage.
