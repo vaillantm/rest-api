@@ -168,13 +168,3 @@ testapi/
 
 ---
 
-## 🪪 License
-
-MIT License
-
----
-
-```
-
-If you want me to help with anything else, just ask!
-```
