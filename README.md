@@ -132,7 +132,7 @@ The API returns JSON-formatted error responses with appropriate status codes:
 ## 📁 Project Structure
 
 ```
-testapi/
+rest-api/
 ├── node_modules/         # Installed dependencies
 ├── package.json          # Metadata and scripts
 ├── package-lock.json     # Exact versions of packages
