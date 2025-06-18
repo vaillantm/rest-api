@@ -46,22 +46,15 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 **OR**
 
-2. **Download the project ZIP** from GitHub:
-
-   * Click the green **Code** button → **Download ZIP**
-3. Extract the ZIP file to your local system.
-4. Open the extracted folder in your terminal or **Visual Studio Code**.
+2. **Download the project ZIP** from GitHub:  
+   - Click the green **Code** button → **Download ZIP**  
+3. Extract the ZIP file to your local system.  
+4. Open the extracted folder in your terminal or **Visual Studio Code**.  
 5. In the terminal, run:
-
-```
-```
-
 
 ```bash
 npm install
-````
 
----
 
 ## ▶️ Running the API
 
