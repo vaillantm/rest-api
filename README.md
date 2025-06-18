@@ -7,38 +7,38 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 ## 🛠 Programming Language and Framework
 
-- **Language:** JavaScript (Node.js)
-- **Framework:** Express.js
-- **UUID Generator:** [uuid](https://www.npmjs.com/package/uuid)
-- **Storage:** In-memory (no database)
+- **Language:** JavaScript (Node.js)  
+- **Framework:** Express.js  
+- **UUID Generator:** [uuid](https://www.npmjs.com/package/uuid)  
+- **Storage:** In-memory (no database)  
 
 ---
 
 ## 📋 Features
 
-- Create users with auto-generated UUIDs
-- Retrieve users by ID
-- Input validation and duplicate email check
-- JSON-formatted responses with appropriate error codes
+- Create users with auto-generated UUIDs  
+- Retrieve users by ID  
+- Input validation and duplicate email check  
+- JSON-formatted responses with appropriate error codes  
 
 ---
 
 ## 🚀 Getting Started
 
 ### ✅ Prerequisites
--VS Code (Or any other IDE)
-- Node.js (v14 or later)
-- npm (Node Package Manager)
-- Postman (For Testing)
+
+- VS Code (Or any other IDE)  
+- Node.js (v14 or later)  
+- npm (Node Package Manager)  
+- Postman (For Testing)  
 
 ---
 
 ## 📦 Installation
 
-
 ### Clone or Download
 
-1. **Clone the repository** using Git:
+1. **Clone the repository** using Git:  
    ```bash
    git clone https://github.com/vaillantm/rest-api.git
    cd rest-api
@@ -46,15 +46,18 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 **OR**
 
-2. **Download the project ZIP** from GitHub:  
-   - Click the green **Code** button → **Download ZIP**  
-3. Extract the ZIP file to your local system.  
-4. Open the extracted folder in your terminal or **Visual Studio Code**.  
+2. **Download the project ZIP** from GitHub:
+
+   * Click the green **Code** button → **Download ZIP**
+3. Extract the ZIP file to your local system.
+4. Open the extracted folder in your terminal or **Visual Studio Code**.
 5. In the terminal, run:
 
-```bash
-npm install
+   ```bash
+   npm install
+   ```
 
+---
 
 ## ▶️ Running the API
 
@@ -89,17 +92,16 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
    * Key: `Content-Type` → Value: `application/json`
      ![alt text](images/image.png)
 5. Go to the **Body** tab → Choose `raw` → Select `JSON`
-6. Paste the following body:
+6. Paste the following JSON body:
 
-```json
-{
-  "name": "John Doe",
-  "email": "john@example.com"
-}
-```
+   ```json
+   {
+     "name": "John Doe",
+     "email": "john@example.com"
+   }
+   ```
 
-![alt text](images/image-1.png)
-
+   ![alt text](images/image-1.png)
 7. Click **Send**
 
 #### ✅ Sample Response:
@@ -119,15 +121,16 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
 2. Create a new `GET` request in Postman.
 3. Set the URL to:
 
-```
-http://localhost:3000/users/<your-user-id>
-```
-
+   ```
+   http://localhost:3000/users/<your-user-id>
+   ```
 4. Click **Send**
 
 #### ✅ Sample Response:
 
 ![alt text](images/image-3.png)
+
+---
 
 ## ⚠️ Error Handling
 
@@ -172,5 +175,6 @@ MIT License
 ---
 
 ```
-All image references now point to files inside the `images` folder without any other changes.
+
+If you want me to help with anything else, just ask!
 ```
