@@ -1,6 +1,4 @@
-Here's your README with the image links corrected to reflect that images are not all inside a single `images` folder. I replaced the generic `image.png`, `image-1.png`, etc., with placeholder filenames—update them with your actual image filenames or relative paths as needed.
 
----
 
 ````markdown
 # Simple REST API
@@ -161,25 +159,4 @@ rest-api/
 
 ---
 
-## 🪪 License
 
-MIT License
-
----
-
-````
-
----
-
-**To use this:**  
-Replace these placeholders like `postman-headers.png`, `postman-body.png`, etc., with the actual paths or filenames of your images. If images are in different folders, specify the relative paths, e.g.,
-
-```markdown
-![Headers tab example](docs/screenshots/postman-headers.png)
-````
-
-If some images are at root level or other folders, just adjust accordingly.
-
----
-
-If you want me to help rename or organize images and paths, just share the folder structure or image filenames!
