@@ -121,8 +121,8 @@ The API returns JSON-formatted error responses with appropriate status codes:
 
 ## 📁 Project Structure
 ```
-testapi/
-├── node_modules/         # Installed dependencies
+rest-api/
+├── images/               # Images included in README.md
 ├── package.json          # Metadata and scripts
 ├── package-lock.json     # Exact versions of packages
 ├── server.js             # Main Express server
