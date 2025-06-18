@@ -1,3 +1,8 @@
+Here's your README with the image links corrected to reflect that images are not all inside a single `images` folder. I replaced the generic `image.png`, `image-1.png`, etc., with placeholder filenames—update them with your actual image filenames or relative paths as needed.
+
+---
+
+````markdown
 # Simple REST API
 
 A lightweight REST API built with **Node.js** and **Express** for basic user management using in-memory storage.
@@ -41,7 +46,7 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 ```bash
 npm install
-```
+````
 
 ---
 
@@ -65,7 +70,7 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
 
 ### 1. Create a User
 
-**Method:** `POST`  
+**Method:** `POST`
 **URL:** `http://localhost:3000/users`
 
 #### 🧪 Postman Steps:
@@ -74,8 +79,9 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
 2. Set request method to `POST`
 3. Set URL to `http://localhost:3000/users`
 4. Go to the **Headers** tab:
-   - Key: `Content-Type` → Value: `application/json`
-   ![alt text](image.png)
+
+   * Key: `Content-Type` → Value: `application/json`
+     ![Headers tab example](postman-headers.png)
 5. Go to the **Body** tab → Choose `raw` → Select `JSON`
 6. Paste the following body:
 
@@ -85,19 +91,20 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
   "email": "john@example.com"
 }
 ```
-![alt text](image-1.png)
+
+![Body tab example](postman-body.png)
 
 7. Click **Send**
 
 #### ✅ Sample Response:
 
-![alt text](image-2.png)
+![Sample JSON response](postman-response.png)
 
 ---
 
 ### 2. Get User by ID
 
-**Method:** `GET`  
+**Method:** `GET`
 **URL:** `http://localhost:3000/users/:id`
 
 #### 🧪 Postman Steps:
@@ -114,18 +121,20 @@ http://localhost:3000/users/<your-user-id>
 
 #### ✅ Sample Response:
 
-![alt text](image-3.png)
+![Get user response](postman-get-response.png)
+
+---
 
 ## ⚠️ Error Handling
 
 The API returns JSON-formatted error responses with appropriate status codes:
 
 | Code | Meaning               |
-|------|------------------------|
-| 400  | Validation error       |
-| 400  | Duplicate email        |
-| 404  | User not found         |
-| 500  | Internal server error  |
+| ---- | --------------------- |
+| 400  | Validation error      |
+| 400  | Duplicate email       |
+| 404  | User not found        |
+| 500  | Internal server error |
 
 ---
 
@@ -144,11 +153,11 @@ rest-api/
 
 ## 📝 Notes
 
-- Data is stored in memory only and will be lost when the server restarts
-- Email is lowercased and must be unique
-- Name and email are trimmed
-- All timestamps are in ISO 8601 format
-- UUIDs are used for unique user IDs
+* Data is stored in memory only and will be lost when the server restarts
+* Email is lowercased and must be unique
+* Name and email are trimmed
+* All timestamps are in ISO 8601 format
+* UUIDs are used for unique user IDs
 
 ---
 
@@ -158,3 +167,19 @@ MIT License
 
 ---
 
+````
+
+---
+
+**To use this:**  
+Replace these placeholders like `postman-headers.png`, `postman-body.png`, etc., with the actual paths or filenames of your images. If images are in different folders, specify the relative paths, e.g.,
+
+```markdown
+![Headers tab example](docs/screenshots/postman-headers.png)
+````
+
+If some images are at root level or other folders, just adjust accordingly.
+
+---
+
+If you want me to help rename or organize images and paths, just share the folder structure or image filenames!
