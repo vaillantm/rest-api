@@ -97,9 +97,10 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
 2. Create a new `GET` request in Postman.
 3. Set the URL to:
    ```
-   http://localhost:3000/users/<your-user-id>
+   http://localhost:3000/users/:id
    ```
-4. Click **Send**
+4. Enter `id` in `value`
+5. Click **Send**
 
 #### ✅ Sample Response:
 ![alt text](images/image-3.png)
