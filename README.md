@@ -49,7 +49,7 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 ---
 
-## ▶ Running the API
+##  Running the API
 ### Step 1: Start the Server
 Open your terminal and run:
 ```bash
