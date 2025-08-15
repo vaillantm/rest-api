@@ -3,7 +3,7 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 ---
 
-## 🛠 Programming Language and Framework
+##  Programming Language and Framework
 - **Language:** JavaScript (Node.js)  
 - **Framework:** Express.js  
 - **UUID Generator:** [uuid](https://www.npmjs.com/package/uuid)  
@@ -11,7 +11,7 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 ---
 
-## 📋 Features
+##  Features
 - Create users with auto-generated UUIDs  
 - Retrieve users by ID  
 - Input validation and duplicate email check  
@@ -19,8 +19,8 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 ---
 
-## 🚀 Getting Started
-### ✅ Prerequisites
+## Getting Started
+###  Prerequisites
 - VS Code (Or any other IDE)  
 - Node.js (v14 or later)  
 - npm (Node Package Manager)  
@@ -28,7 +28,7 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 ---
 
-## 📦 Installation
+##  Installation
 ### Clone or Download
 1. **Clone the repository** using Git:  
    ```bash
@@ -49,23 +49,23 @@ A lightweight REST API built with **Node.js** and **Express** for basic user man
 
 ---
 
-## ▶️ Running the API
+## ▶ Running the API
 ### Step 1: Start the Server
 Open your terminal and run:
 ```bash
 npm start
 ```
 This starts the API server at [http://localhost:3000](http://localhost:3000)
-> ⚠️ Keep this terminal running.
+>  Keep this terminal running.
 
 ---
 
-## 📫 API Endpoints & Testing with Postman
+## API Endpoints & Testing with Postman
 ### 1. Create a User
 **Method:** `POST`  
 **URL:** `http://localhost:3000/users`
 
-#### 🧪 Postman Steps:
+####  Postman Steps:
 1. Open **Postman**
 2. Set request method to `POST`
 3. Set URL to `http://localhost:3000/users`
@@ -83,7 +83,7 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
    ![alt text](images/image-1.png)
 7. Click **Send**
 
-#### ✅ Sample Response:
+####  Sample Response:
 ![alt text](images/image-2.png)
 
 ---
@@ -92,7 +92,7 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
 **Method:** `GET`  
 **URL:** `http://localhost:3000/users/:id`
 
-#### 🧪 Postman Steps:
+####  Postman Steps:
 1. Copy the `id` from the response of the POST request.
 2. Create a new `GET` request in Postman.
 3. Set the URL to:
@@ -102,12 +102,12 @@ This starts the API server at [http://localhost:3000](http://localhost:3000)
 4. Enter `id` in `value`
 5. Click **Send**
 
-#### ✅ Sample Response:
+####  Sample Response:
 ![alt text](images/image-3.png)
 
 ---
 
-## ⚠️ Error Handling
+##  Error Handling
 The API returns JSON-formatted error responses with appropriate status codes:
 
 | Code | Meaning               |
@@ -119,7 +119,7 @@ The API returns JSON-formatted error responses with appropriate status codes:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 rest-api/
 ├── images/               # Images included in README.md
@@ -131,7 +131,7 @@ rest-api/
 
 ---
 
-## 📝 Notes
+##  Notes
 * Data is stored in memory only and will be lost when the server restarts
 * Email is lowercased and must be unique
 * Name and email are trimmed
